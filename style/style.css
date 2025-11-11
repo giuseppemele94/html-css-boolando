@@ -67,8 +67,8 @@ img {
 }
 .card {
     width : calc(100% /3 - (40px /3));
-    
     cursor: pointer;
+    position: relative;
 }
 .img-container {
     position:relative; 
@@ -106,4 +106,20 @@ color:red;
 .old-price {
     color: black;
     text-decoration: line-through;
+}
+
+.cuore{
+  position: absolute;
+  top: 10px;                    
+  right: 10px;
+  display: block;                  
+}
+
+.fa-heart-circle-check {
+  color: black;
+  background-color: white;
+  font-size: 30px;         
+  padding: 10px;           
+  display: inline-flex;   
+  justify-content: center;
 }

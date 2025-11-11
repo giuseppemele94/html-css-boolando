@@ -123,3 +123,7 @@ color:red;
   display: inline-flex;   
   justify-content: center;
 }
+
+.fa-heart-circle-check:hover {
+  color: red;
+}

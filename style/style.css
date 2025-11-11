@@ -68,7 +68,29 @@ img {
 .card {
     width : calc(100% /3 - (40px /3));
     
-    position: relative;
     cursor: pointer;
+}
+.img-container {
+    position:relative; 
+}
+
+.discount-label {
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.label-sostenibility {
+  position: absolute;
+  bottom: 30px;
+  left: 70px; 
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9rem;
 }
 

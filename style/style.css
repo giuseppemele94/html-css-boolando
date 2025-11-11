@@ -45,7 +45,30 @@ body {
  
 }
 
-/* evita che il contenuto finisca sotto l’header fisso */
+
 main {
-    padding-top: 70px;
+    padding-top: 150px;
 }
+
+section {
+    width: 80%;
+    margin: 0 auto ;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    
+}
+
+img {
+    max-width: 100%; 
+}
+.card {
+    width : calc(100% /3 - (40px /3));
+    
+    position: relative;
+    cursor: pointer;
+}
+

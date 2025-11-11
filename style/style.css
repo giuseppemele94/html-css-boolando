@@ -127,3 +127,33 @@ color:red;
 .fa-heart-circle-check:hover {
   color: red;
 }
+
+/*serve per la sovrapposizione */
+.img-container{
+  position: relative;
+  overflow: hidden;
+}
+
+/* Stesse dimensioni,  */
+.img-container img{
+  width: 100%;
+  display: block;
+ 
+}
+
+/* La seconda immagine sta sopra ma è invisibile */
+.image-hover{
+  position: absolute;
+  inset: 0;          /* top:0 right:0 bottom:0 left:0 */
+  opacity: 0;
+}
+
+/* Al passaggio sulla card: mostra la 2 e nascondi la 1 */
+.card:hover .image-hover{ 
+    opacity: 1; 
+   
+} 
+.card:hover .image-default{ 
+    opacity: 0; 
+}
+

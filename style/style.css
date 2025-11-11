@@ -94,3 +94,16 @@ img {
   font-size: 0.9rem;
 }
 
+/* se la card ha SOLO sostenibilità */
+.img-container:has(.label-sostenibility):not(:has(.discount-label)) .label-sostenibility {
+  left: 0; /* torna a sinistra quando non c’è sconto */
+}
+
+.price {
+color:red; 
+}
+
+.old-price {
+    color: black;
+    text-decoration: line-through;
+}
